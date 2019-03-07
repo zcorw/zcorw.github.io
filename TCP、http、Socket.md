@@ -75,6 +75,11 @@ TCP 是有连接的通讯协议，在数据通信之前，要先建立一个连�
 
 > 参考链接：[https://imweb.io/topic/5963a4c19b7a478b1c268ded](https://imweb.io/topic/5963a4c19b7a478b1c268ded)
 
+### 扩展知识
+* SYN攻击
+* 窗口滑动
+* TCP KeepAlive
+
 ## http
 http 协议是 web 应用中最常使用的协议，不管是网页访问还是 app 与服务器接口访问都是使用 http 协议。
 
@@ -110,4 +115,8 @@ web 前端开发的小伙伴在用 ajax 时一定经常用到 `GET` 和 `POST` �
 ### 在浏览器中设置一次请求的请求头
 > 参考链接：[https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/setRequestHeader](https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/setRequestHeader)
 
-
+### 扩展知识
+* 跨域访问（CORS）
+* HTTP 缓存
+* HTTP/2
+* HTTP 与 WebSocket 的连接机制
