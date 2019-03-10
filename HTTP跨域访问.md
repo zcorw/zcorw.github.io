@@ -74,6 +74,8 @@ invocation.withCredentials = true;
   * `Access-Control-Allow-Credentials: true` 如果服务端返回响应未携带该首部字段，浏览器就会报错阻挡响应接收。
   * `Access-Control-Allow-Origin` 请求的首部中携带了 Cookie 信息，如果 Access-Control-Allow-Origin 的值为 “*”，请求将会失败。这里 Access-Control-Allow-Origin 必须是同意发送 Cookie 的域名。
 
+**注意：此处访问的是与请求相同域的Cookie，比如当前访问的页面域名是client.com，请求的是server.com下的接口，那么带过去的是server.com下面的Cookie**
+
 想要看代码演示，可以[点击这里](https://github.com/zcorw/CORS-test)，演示了上面提到的各种情况。
 
 
